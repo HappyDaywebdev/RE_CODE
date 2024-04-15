@@ -1,0 +1,25 @@
+// variables
+
+
+const name = "Eva"  //constant variable / fixed
+
+
+// function printThisOne() {
+
+//     let knowledge = "Apple"
+//     var lifespan = 100;
+//     console.log(knowledge);
+//     console.log(lifespan);
+
+// }
+
+if (true) {
+
+    let knowledge = "Apple" // let is block level variable
+    console.log(knowledge)
+    var lifespan = "im immortal cos my lifespan are 100%" //global variable
+    // console.log(lifespan);
+}
+
+console.log(lifespan);
+// console.log(knowledge)

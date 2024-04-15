@@ -37,10 +37,25 @@
 
 
 /* Using repeat Fraction */
-.gridContainer {
+/* .gridContainer {
 
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: auto;
     gap: 2rem;
+    font-size: 25px;
+} */
+
+.gridContainer {
+
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: auto;
+
+}
+
+.gridItem2 {
+
+    /* Row first and follow by column */
+    grid-area: 2/3/4/5;   
 }
