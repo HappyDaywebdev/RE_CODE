@@ -1,0 +1,51 @@
+
+//addition operators
+
+ let x = 15;
+ let y = 5;
+let sum = x + y;
+console.log("the sum is: ",sum);
+
+//subration operators
+let subtract = x - y;
+console.log("the subtract is: ",subtract);
+
+//multiplication operators
+let multiply = x * y;
+console.log("the multiply is: ",multiply);
+console.log("the multiply is: ",typeof(multiply));
+
+//division operators
+let divide = x / y;
+console.log("the divide is: ",divide);
+console.log("the divide is: ",typeof(divide));
+
+//Remainder operators
+let remainder = x % 4;
+console.log("the remainder is: ",remainder);
+
+let answer =  10 + 2 * 23 / 2;
+console.log("the answer is: ",answer);
+console.log("the answer is: ",typeof(answer));
+
+
+//Concatenation operators
+let a= "hello";
+let b= "world!!";
+console.log(a + " " + b);
+
+//assignment expressions
+let j = 50;
+let e = 20;
+
+j += e;
+console.log(j);
+
+j -= e;
+console.log(j);
+
+j *= e;
+console.log(j);
+
+j /= e;
+console.log(j);

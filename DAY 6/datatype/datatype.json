@@ -1,0 +1,29 @@
+
+// number : represents the numeric values
+let age = 25;
+console.log("the value of age is:", age);
+console.log ("the datatype of age is:",typeof(age)); 
+
+
+// string : textual data enclosed in
+let name = "kids";
+console.log("the value of name is:", name);
+console.log ("the datatype of name is:",typeof(name)); 
+
+
+// Boolean: true of false 
+let accuser = false;
+console.log("the value of accuser is:", accuser);
+console.log("the datatype of of accuser is:",typeof(accuser));
+
+
+// NULL: intentional absense of value
+let addpass = null;
+console.log("the value of addpass is:", addpass);
+console.log("the datatype of addpass is:",typeof(addpass));
+
+
+// undefined: intentional absence of value
+let city;
+console.log("the value of city is:", city);
+console.log("the value of city is:",typeof(city));
