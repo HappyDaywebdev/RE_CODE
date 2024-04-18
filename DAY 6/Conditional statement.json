@@ -1,0 +1,75 @@
+
+//if statement and if else statement
+
+let age = 17;
+
+if (age >= 18) {
+
+    console.log("You are eligible to vote for the sk chairman")
+}
+
+else {
+
+    console.log("You are not eligible to vote for the sk chairman")
+}
+
+
+// if else if else
+let temperature = 31;
+
+if (temperature < 0) {
+
+    console.log("it is fucking frezzing")
+} 
+else if (temperature >= 0 && temperature < 20) {
+
+    console.log("It is fucking cold outside")
+}
+else if (temperature >= 20 && temperature <= 30) {
+
+    console.log("It is fucking warm")
+}
+else {
+    console.log("It is fucking hot outside")
+}
+
+//switch statement
+
+let life = "tired";
+
+switch (life) {
+    case "happy":
+        console.log("it is a happy day")
+        break;
+    case "sad":
+        console.log("It is a sad day")
+        break;
+    case "tough":
+        console.log("It is a tough day")
+        break;
+    case "dissapointment":
+        console.log("fucking dissapointment day")
+        break;
+    case "tired":
+        console.log("i'm tired......")
+        break;
+    default:
+        console.log("let's take a break you are not ok dude")
+}
+
+let number = 151;
+
+switch (true) {
+    case (number >= 0 && number <= 50):
+        console.log("Number is between 0 and 50");
+        break;
+    case (number > 50 && number <= 100):
+        console.log("Number is between 51 and 100");
+        break;
+    case (number > 150 && number <= 200):
+        console.log("Number is between 151 and 100");
+        break;
+            
+    default:
+        console.log("Number is either negative or greater than 100");
+}
